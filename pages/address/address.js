@@ -2,30 +2,30 @@ Page({
   data: {
     isShowAddressSetting: false,
     //店铺经纬度
-    latitude: 30.353351,
-    longitude: 120.231010,
+    latitude: 37.948493,
+    longitude:    102.64434,
     //标记点
     markers: [{
       id: 0,
       name: "坚果前端",
       address: "浙江省宁波市",
-      latitude: 30.353351,
-      longitude: 120.231010,
+      latitude: 37.948493,
+      longitude:     102.64434,
       width: 50,
       height: 50
     }]
-
+,
   },
   //拨打电话
   Call() {
     wx.makePhoneCall({
-      phoneNumber: '2501902696' //仅为示例，这个号码也是石头哥的微信号
+      phoneNumber: '17752170152' //仅为示例，这个号码也是我的微信号
     })
   },
   //复制微信
   Copy() {
     wx.setClipboardData({
-      data: '2501902696',
+      data: '17752170152',
     })
   },
   //导航
