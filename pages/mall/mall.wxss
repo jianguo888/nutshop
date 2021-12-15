@@ -73,6 +73,8 @@ page {
   text-align: center;
   margin-left: 10rpx;
   margin-right: 30rpx;
+  border-radius: 5px;
+  overflow: hidden;
 }
 
 .cai_root2 {
