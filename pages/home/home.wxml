@@ -21,7 +21,7 @@
 	<view class="category-panel2">
 		<view bindtap='goToMall' class="category-item">
 			<image class="category-item-image" src="/image/mall.png" />
-			<text class="category-item-text">坚果商城</text>
+			<text class="category-item-text">三只坚果</text>
 		</view>
 		<view bindtap='goToNew' class="category-item">
 			<image class="category-item-image" src="/image/new.png" />
