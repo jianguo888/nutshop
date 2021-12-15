@@ -1,0 +1,19 @@
+<map style="width:100%; height:1000rpx;" longitude="{{longitude}}" latitude="{{latitude}}" scale="17"
+  markers="{{markers}}" bindmarkertap="navRoad" data-marker="{{markers[0]}}" show-location />
+<view class="phone" bindtap="Call">
+  地址：坚果前端的小屋
+</view>
+<view class="phone" bindtap="Call">
+  电话：17752170152(可点击拨打)
+</view>
+<view class="phone" bindtap="Copy">
+  微信：xjg13690(可点击复制)
+</view>
+<!-- 获取位置授权失败的弹窗 -->
+<view class='toast_box' hidden='{{!isShowAddressSetting}}' bindtap="closeSettingView">
+  <view class='toastbg'></view>
+  <view class='toast_content'>
+    <view class="toast_tip">请去设置中心开启位置信息</view>
+    <button class="toast_btn" open-type="openSetting" type="primary">去设置</button>
+  </view>
+</view>

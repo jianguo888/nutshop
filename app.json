@@ -1,0 +1,67 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/cart/cart",
+    "pages/mall/mall",
+    "pages/detail/detail",
+    "pages/pay/pay",
+    "pages/newGood/newGood",
+    "pages/search/search",
+    "pages/myComment/myComment",
+    "pages/myOrder/myOrder",
+    "pages/address/address",
+    "pages/me/me"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1E90FF",
+    "navigationBarTitleText": "坚果铺子",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#1E90FF",
+    "borderStyle": "white",
+    "list": [{
+        "selectedIconPath": "image/tab1_ok.png",
+        "iconPath": "image/tab1.png",
+        "pagePath": "pages/home/home",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "image/tab2_ok.png",
+        "iconPath": "image/tab2.png",
+        "pagePath": "pages/mall/mall",
+        "text": "商城"
+      }, {
+        "selectedIconPath": "image/tab3_ok.png",
+        "iconPath": "image/tab3.png",
+        "pagePath": "pages/cart/cart",
+        "text": "购物车"
+      },
+      {
+        "selectedIconPath": "image/tab4_ok.png",
+        "iconPath": "image/tab4.png",
+        "pagePath": "pages/me/me",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.address": {
+      "desc": "获取收货地址"
+    },
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    },
+    "scope.userInfo": {
+      "desc": "用户信息"
+    }
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "导航需要"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}

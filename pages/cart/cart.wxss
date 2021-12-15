@@ -1,0 +1,147 @@
+page {
+  background: gainsboro;
+}
+
+.shopcart_delete {
+  margin-right: 15rpx;
+}
+
+.caipin_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10rpx 0rpx;
+  background-color: #ffffff;
+  margin-top: 8rpx;
+}
+
+.cai_img {
+  width: 140rpx;
+  height: 140rpx;
+  line-height: 140rpx;
+  text-align: center;
+  margin-left: 10rpx;
+  margin-right: 30rpx;
+}
+
+.cai_root2 {
+  flex: 1;
+  min-width: 0
+}
+
+.cai_title {
+  font-weight: 400;
+  font-size: 40rpx;
+  width: auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.cai_sell {
+  font-size: 33rpx;
+  color: gray;
+}
+
+/*加减器*/
+.stepper {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 60rpx;
+  margin-bottom: 20rpx;
+}
+
+.price-stepper {
+  /*价格与数量加减器*/
+  padding-right: 20rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/*价格*/
+
+.cai_price {
+  font-weight: bold;
+  font-size: 32rpx;
+  color: var(--themeColor);
+}
+
+/*人民币符号*/
+
+.cai_price:before {
+  content: "￥";
+  font-size: 14px;
+}
+
+
+
+.jiajian {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.value_num {
+  width: 50rpx;
+  text-align: center;
+}
+
+/*数量*/
+
+.value {
+  font-size: 28rpx;
+  margin: 0 20rpx;
+  font-weight: bold;
+}
+
+/* 购物车为空 */
+.nothing {
+  margin: 90rpx;
+  text-align: center;
+  padding: 20rpx;
+  color: white;
+  background: #FA8072;
+  border-radius: 20rpx;
+}
+
+/*底部区域  */
+
+.bottom_box {
+  width: 100%;
+  height: 80rpx;
+  position: fixed;
+  left: 0;
+  bottom: 0px;
+  z-index: 100;
+  background-color: #fef4d1;
+}
+
+.all_money {
+  position: absolute;
+  width: 50%;
+  height: 80rpx;
+  top: 0;
+  left: 25%;
+  line-height: 80rpx;
+  text-align: center;
+  font-size: 32rpx;
+}
+
+.choose_ok {
+  position: absolute;
+  width: 25%;
+  height: 80rpx;
+  top: 0;
+  right: 0;
+  line-height: 80rpx;
+  text-align: center;
+  color: #fff;
+  font-size: 40rpx;
+  background-color: var(--themeColor);
+}

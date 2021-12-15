@@ -1,0 +1,36 @@
+<scroll-view scroll-y>
+  <view wx:if="{{cartList&&cartList.length>0}}">
+    <block wx:for="{{cartList}}" wx:key="index">
+      <view class="caipin_item" data-id="{{item._id}}" bindtap="goDetail">
+        <image class="cai_img" src="{{item.img[0]}}" />
+        <view class="cai_root2">
+          <view class="cai_title">{{item.name}}</view>
+          <view class="cai_sell">剩余：{{item.num}} </view>
+          <view class="price-stepper">
+            <view class="cai_price">{{item.price}}</view>
+            <view class="stepper">
+              <view catchtap="minusCount" data-item="{{item}}">
+                <image class="jiajian" src="/image/jian.png" />
+              </view>
+              <view class="value" data-id="{{item._id}}">
+                {{item.quantity}}</view>
+              <view catchtap="addCount" data-item="{{item}}">
+                <image class="jiajian" src="/image/jia.png" />
+              </view>
+            </view>
+          </view>
+        </view>
+        <icon class="shopcart_delete" type="clear" size="18" data-index="{{index}}" data-id="{{item._id}}"
+          catchtap="deleteOne" />
+      </view>
+    </block>
+    <!--页面底部区域  -->
+    <view class="bottom_box">
+      <view class="all_money">总计:{{totalPrice}}元，{{totalNum}}件</view>
+      <view class="choose_ok" bindtap="gotoOrder">去支付</view>
+    </view>
+  </view>
+  <view wx:else class="nothing" bindtap="goMall">
+    购物车太瘪了，去商城购买吧
+  </view>
+</scroll-view>
