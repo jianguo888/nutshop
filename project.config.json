@@ -1,5 +1,4 @@
 {
-    "cloudfunctionRoot": "cloud/",
     "description": "项目配置文件",
     "packOptions": {
         "ignore": []
@@ -23,50 +22,35 @@
         "uploadWithSourceMap": true,
         "compileHotReLoad": false,
         "lazyloadPlaceholderEnable": false,
-<<<<<<< HEAD
-        "useMultiFrameRuntime": true,
-        "useApiHook": true,
-        "useApiHostProcess": true,
-=======
         "useMultiFrameRuntime": false,
         "useApiHook": false,
         "useApiHostProcess": false,
->>>>>>> d49fe1559bdbf28f84871dc0c5563b84b545b15a
         "babelSetting": {
             "ignore": [],
             "disablePlugins": [],
             "outputPath": ""
         },
         "enableEngineNative": false,
-<<<<<<< HEAD
-        "useIsolateContext": false,
-=======
         "useIsolateContext": true,
->>>>>>> d49fe1559bdbf28f84871dc0c5563b84b545b15a
         "userConfirmedBundleSwitch": false,
         "packNpmManually": false,
         "packNpmRelationList": [],
         "minifyWXSS": true,
-<<<<<<< HEAD
-        "disableUseStrict": false,
-        "showES6CompileOption": false,
-        "useCompilerPlugins": false,
-        "minifyWXML": true
-=======
         "showES6CompileOption": false
->>>>>>> d49fe1559bdbf28f84871dc0c5563b84b545b15a
     },
     "compileType": "miniprogram",
     "libVersion": "2.16.0",
     "appid": "wxffbdca944a4a618d",
     "projectname": "%E5%95%86%E5%9F%8E%E5%B0%8F%E7%A8%8B%E5%BA%8F",
+    "cloudfunctionRoot": "cloud/",
+    "cloudfunctionTemplateRoot": "cloudfunctionTemplate",
+    "watchOptions": {
+        "ignore": []
+    },
     "debugOptions": {
         "hidedInDevtools": []
     },
-    "isGameTourist": false,
-    "simulatorType": "wechat",
-    "simulatorPluginLibVersion": {},
-    "cloudfunctionTemplateRoot": "cloudfunctionTemplate",
+    "scripts": {},
     "condition": {
         "plugin": {
             "list": []
@@ -118,8 +102,8 @@
                     "scene": null
                 },
                 {
-                    "name": "pages/seller/seller",
-                    "pathName": "pages/seller/seller",
+                    "name": "pages/cart/cart",
+                    "pathName": "pages/cart/cart",
                     "query": "",
                     "scene": null
                 },
@@ -144,8 +128,8 @@
                     "scene": null
                 },
                 {
-                    "name": "pages/fabu/fabu",
-                    "pathName": "pages/fabu/fabu",
+                    "name": "pages/address/address",
+                    "pathName": "pages/address/address",
                     "query": "",
                     "scene": null
                 },
