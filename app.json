@@ -32,12 +32,12 @@
         "selectedIconPath": "image/tab2_ok.png",
         "iconPath": "image/tab2.png",
         "pagePath": "pages/mall/mall",
-        "text": "商城"
+        "text": "铺子"
       }, {
         "selectedIconPath": "image/tab3_ok.png",
         "iconPath": "image/tab3.png",
         "pagePath": "pages/cart/cart",
-        "text": "购物车"
+        "text": "上车了"
       },
       {
         "selectedIconPath": "image/tab4_ok.png",

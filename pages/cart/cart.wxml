@@ -31,6 +31,6 @@
     </view>
   </view>
   <view wx:else class="nothing" bindtap="goMall">
-    购物车太瘪了，去商城购买吧
+    空空如也，去开车
   </view>
 </scroll-view>

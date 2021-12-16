@@ -1,6 +1,6 @@
 <!-- 搜索框 -->
 <view class="searchRoot">
-	<input class="searchInput" bindconfirm='goSearch' confirm-type='search' bindinput="getSearchKey" placeholder="搜索商品" />
+	<input class="searchInput" bindconfirm='goSearch' confirm-type='search' bindinput="getSearchKey" placeholder="搜索宝藏" />
 	<image class="searchImg" bindtap="goSearch" src="/image/search.png"></image>
 </view>
 <!-- 顶部轮播图 -->
