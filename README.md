@@ -2,7 +2,7 @@
 
 cms访问地址
 https://cloud1-8gizd5zha3d8e70f-1308797563.tcloudbaseapp.com/wx-cms/#/
-账户：
+账户：jianguojs
 密码
 
 
@@ -70,4 +70,4 @@ image{
 
 
 
-![image-20220213143726981](C:\Users\85285\AppData\Roaming\Typora\typora-user-images\image-20220213143726981.png)
+![image-20220213143726981](https://luckly007.oss-cn-beijing.aliyuncs.com/images/image-20220213143726981.png)
