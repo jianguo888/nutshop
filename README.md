@@ -20,3 +20,54 @@ image{
 }
 ```
 
+# 技术选型
+
+## 1，前端
+
+- 微信小程序原生框架
+- css
+- JavaScript
+
+## 2，管理后台
+
+- 云开发Cms内容管理系统
+- web网页
+
+## 3，数据后台
+
+- 小程序云开发
+- 云函数
+- 云数据库
+- 云存储
+
+# 效果预览
+
+## 1，小程序端
+
+![image-20220213143518598](https://luckly007.oss-cn-beijing.aliyuncs.com/images/image-20220213143518598.png)
+
+
+
+
+
+![image-20220213143545034](https://luckly007.oss-cn-beijing.aliyuncs.com/images/image-20220213143545034.png)
+
+
+
+
+
+![image-20220213143607907](https://luckly007.oss-cn-beijing.aliyuncs.com/images/image-20220213143607907.png)
+
+
+
+![image-20220213143627926](https://luckly007.oss-cn-beijing.aliyuncs.com/images/image-20220213143627926.png)
+
+
+
+![image-20220213143703169](https://luckly007.oss-cn-beijing.aliyuncs.com/images/image-20220213143703169.png)
+
+
+
+
+
+![image-20220213143726981](C:\Users\85285\AppData\Roaming\Typora\typora-user-images\image-20220213143726981.png)
